@@ -8,10 +8,11 @@ class Triangle
   end
   
   def kind
-    if 
-      raise TriangleError
-    else
+    if @side1 == @side2 && @side2 == @side3
+      puts :equilateral
       
+    else
+      raise TriangleError
     end
   end
 end
