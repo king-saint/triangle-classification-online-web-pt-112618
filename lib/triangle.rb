@@ -9,7 +9,7 @@ class Triangle
   
   def kind
     if (@side1 == @side2 && @side2 == @side3)  && @side1 != 0
-      puts :equilateral
+      return :equilateral
     else
       raise TriangleError
     end
