@@ -18,5 +18,7 @@ end
 
 
 class TriangleError < StandardError
-  def 
+  def message
+    "That isn't a real triangle - try again!"
+  end
 end
