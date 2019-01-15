@@ -8,7 +8,9 @@ class Triangle
   end
   
   def kind
-    
+    if 
+      raise TriangleError
+    end
   end
 end
 
