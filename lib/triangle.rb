@@ -10,6 +10,8 @@ class Triangle
   def kind
     if 
       raise TriangleError
+    else
+      
     end
   end
 end
